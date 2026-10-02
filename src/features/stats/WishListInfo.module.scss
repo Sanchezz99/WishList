@@ -1,0 +1,14 @@
+.view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.deleteAllButton {
+    border: none;
+    background-color: var(--color-white);
+    cursor: pointer;
+    font-weight: 600;
+}

@@ -1,0 +1,34 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-white);
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--color-violet);
+    width: 100%;
+    font-size: 14px;
+
+    input[type='checkbox'] {
+        transform: scale(1.1);
+        cursor: pointer;
+        accent-color: var(--color-violet);
+    }
+}
+
+.buttons{
+    margin-left: auto;
+}
+.deleteButton {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+.moreButton {
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-black);
+}
